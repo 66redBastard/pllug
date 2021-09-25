@@ -16,3 +16,24 @@ const stringTransform = (str) => {
 };
 
 stringTransform(str);
+
+// ES6 ternary operator example
+const stringTransformTernary = (str) => {
+  console.log(str);
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    let strSymbol = str.charAt(i);
+    const concatResultUpper = result.concat("", strSymbol.toUpperCase());
+    const concatResultLower = result.concat("", strSymbol.toLowerCase());
+
+    strSymbol == strSymbol.toLowerCase()
+      ? (result = concatResultUpper)
+      : (result = concatResultLower);
+  }
+
+  console.log(result);
+  return result;
+};
+
+stringTransformTernary(str);
