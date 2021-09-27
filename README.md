@@ -8,6 +8,6 @@
 {
     tasks: "stackOverflow, strTransform",
     algorithm: "two sum",
-    oop: "class, encapsulation"
+    oop: "class, encapsulation, inheritance"
 }
 ```
