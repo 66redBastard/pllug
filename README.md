@@ -5,9 +5,9 @@
 #### hw-1
 
 ```
-{   tasks: "stackOverflow, strTransform",
+{
+    tasks: "stackOverflow, strTransform",
     algorithm: "two sum",
     oop: "class, incapsulation"
-
 }
 ```
