@@ -1,3 +1,4 @@
+// геттури та сеттири руйнують інкапсуляцію
 class Person {
   private _firstName: string;
   private _lastName: string;
